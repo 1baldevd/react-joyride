@@ -213,7 +213,7 @@ export default class JoyrideOverlay extends React.Component {
     }
 
     return (
-      <div className="react-joyride__overlay" style={stylesOverlay} onClick={onClickOverlay}>
+      <div className="react-joyride__overlay__test__commit" style={stylesOverlay} onClick={onClickOverlay}>
         {spotlight}
       </div>
     );
